@@ -1,0 +1,43 @@
+.main__box {
+    padding: 1rem;
+}
+
+.title {
+    color: var(--light-gray);
+    font-size: 2.5rem;
+}
+
+.text {
+    color: var(--light-gray);
+    font-size: 1.5rem;
+    margin-bottom: 3rem;
+}
+
+.page__link__main {
+    font-size: 1.25rem;
+}
+
+.ilustration {
+    display: none;
+}
+
+.destinos {
+    display: none;
+}
+
+.travel__list {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin-top: 4rem;
+    margin-bottom: 3rem;
+    padding-left: 0;
+    text-align: center;
+}
+
+.travel__list__img{
+    border-radius: 10px;
+    width: 350px;
+    height: 500px;
+}

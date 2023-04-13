@@ -1,0 +1,39 @@
+header {
+    background-color: var(--light-gray);
+    box-shadow: 5px 5px 20px var(--dark-gray);
+
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+.logo {
+    height: 150px;
+    width: 150px;
+}
+
+.header__list {
+    display: flex;
+    justify-content: flex-end;
+    gap: 15%;
+}
+
+.header__list__item {
+    list-style: none;
+}
+
+.page__link {
+    color: var(--purple);
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
+.page__link__main {
+    color: var(--black);
+    font-size: 1.5rem;
+}
+
+.page__link:hover{
+    color: var(--gray);
+    transition: .25s;
+}

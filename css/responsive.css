@@ -1,0 +1,28 @@
+@media screen and (min-width: 768px) {
+    .ilustration {
+        display: block;
+        width: 100%;
+    }
+
+    .destinos {
+        display: block;
+    }
+
+    .services__list {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    
+    .footer__info__list {
+        border: none;
+
+        display: flex;
+        justify-content: space-between;
+
+        width: 50%;
+    }
+
+    .footer__copy {
+        margin: auto;
+    }
+}

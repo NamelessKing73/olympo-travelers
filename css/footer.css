@@ -1,0 +1,32 @@
+.footer__box {
+    background-color: var(--light-gray);
+    box-shadow: 5px 5px 20px var(--dark-gray);
+
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+
+    padding: 1rem;
+}
+
+.footer__copy {
+    color: var(--dark-gray);
+    margin-left: 1rem;
+}
+
+.footer__info__list{
+    border-right: 1px solid var(--purple);
+    list-style: none;
+    padding-right: 1rem;
+}
+
+.footer__info__title {
+    color: var(--purple);
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.footer__info__text {
+    color: var(--dark-gray);
+    font-size: 1.25rem;
+}
